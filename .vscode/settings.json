@@ -1,12 +1,18 @@
 {
-    "editor.tabSize": 2,
-    "editor.codeActionsOnSave": {
-        "source.fixAll": true
-    },
-    "eslint.validate": [
-        "javascript",
-        "typescript"
-    ],
-    "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 1000
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "eslint.workingDirectories": [
+    "my-app"
+  ],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "git.ignoreLimitWarning": true
 }
